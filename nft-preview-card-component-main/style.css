@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: hsl(217, 54%, 11%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+}
+/* main styles */
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: left;
+}
+
+.container {
+  background: hsl(216, 50%, 16%);
+  max-width: 20rem;
+  width: 100%;
+  border-radius: 1rem;
+  /* padding: 2rem; */
+}
+.wrapper {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: left;
+}
+.image {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+h2 {
+  width: 100%;
+  text-align: left;
+  margin: 1.2rem 0;
+  color: hsl(0, 0%, 100%);
+}
+p {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+.promo {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+.promo .colored {
+  color: hsl(178, 100%, 50%);
+  font-weight: bold;
+}
+.promo img {
+  width: 0.7rem;
+}
+
+.nft-footer {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  padding: 1rem 1rem 0;
+  border-top: 2px solid hsl(215, 32%, 27%);
+}
+
+.nft-footer img {
+  border: 2px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  width: 15%;
+  margin-right: 0.9rem;
+}
+
+.nft-footer span {
+  color: hsl(215, 51%, 70%);
+}
+
+.overlay {
+  background: rgba(0, 255, 246, 0.4);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  /* top: 0;
+  left: 0; */
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s ease-in-out;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.overlay-img {
+  width: 50px;
+  height: 50px;
+}
+
+.image {
+  position: relative;
+}
+/* footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
