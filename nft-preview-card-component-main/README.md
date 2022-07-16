@@ -26,9 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](nft-preview-card-component-by-me.netlify.app)
-
-## My process
+- Live Site URL: [Live site](nft-preview-card-component-by-me.netlify.app)
 
 ### Built with
 
@@ -38,4 +36,4 @@ Users should be able to:
 - CSS Grid
 - Desktop-first workflow
 
-- Twitter - [@yourusername](https://www.twitter.com/Emeghieb0C)
+- Twitter - [@EmeghieboC](https://www.twitter.com/Emeghieb0C)
